@@ -1,0 +1,8 @@
+{
+  "name": "bootstrap-panels",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-shell": "~0.6.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

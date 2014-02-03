@@ -1,0 +1,22 @@
+<polymer-element name="hello-you">
+  <template>
+    <div>
+      <h2>Hello {{your_name}}</h2>
+      <p>
+        <input value="{{your_name}}">
+        <input type=submit value="Done!" on-click="{{feelingLucky}}">
+      </p>
+      <p class=instructions>
+        <content></content>
+      </p>
+    </div>
+    <style>
+      .instructions {
+        color: grey;
+        font-style: italic;
+        font-size: 80%;
+      }
+    </style>
+  </template>
+  <script type="application/dart" src="hello_you.dart"></script>
+</polymer-element>
